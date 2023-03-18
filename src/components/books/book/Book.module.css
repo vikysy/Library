@@ -1,0 +1,39 @@
+.container {
+  max-width: 310px;
+  box-sizing: border-box;
+  padding: 20px;
+  border: 1px solid #EBEBF1;
+  border-radius: 5px;
+}
+.container:hover {
+  box-shadow: -3px 0px 40px rgba(0, 0, 0, 0.1), 0px 0px 10px rgba(164, 164, 164, 0.03);
+}
+.container a {
+  color: #768298;
+  text-decoration: none;
+}
+.container a .imgBook {
+  margin: 0 auto 20px auto;
+  max-width: 200px;
+}
+.container a .imgBook img {
+  height: 250px;
+}
+.container a .infoBook {
+  position: relative;
+  padding-bottom: 110px;
+}
+.container a .infoBook p {
+  font-size: 16px;
+}
+.container a .infoBook h3 {
+  position: absolute;
+  top: 40px;
+  font-size: 18px;
+  color: #000000;
+}
+.container a .infoBook h5 {
+  position: absolute;
+  top: 110px;
+  font-size: 16px;
+}/*# sourceMappingURL=Book.module.css.map */

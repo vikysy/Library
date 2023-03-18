@@ -1,0 +1,39 @@
+.container{
+    max-width: 310px;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 1px solid #EBEBF1;
+    border-radius: 5px;
+    &:hover{
+        box-shadow: -3px 0px 40px rgba(0, 0, 0, 0.1), 0px 0px 10px rgba(164, 164, 164, 0.03);
+    }
+    a{
+        color: #768298;
+        text-decoration: none;
+        .imgBook{
+            margin: 0 auto 20px auto;
+            max-width: 200px;
+            img{
+                height: 250px;
+            }
+        }
+        .infoBook{
+            position: relative;
+            padding-bottom: 110px;
+            p{
+                font-size: 16px;
+            }
+            h3{
+                position: absolute;
+                top: 40px;
+                font-size: 18px;
+                color: #000000;
+            }
+            h5{
+                position: absolute;
+                top: 110px;
+                font-size: 16px;
+            }
+        }
+    }
+}
