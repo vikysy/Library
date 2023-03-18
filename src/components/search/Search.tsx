@@ -1,6 +1,6 @@
 import React, { FC, useEffect, useState } from 'react';
 import selectCategories from '../../store/selectCategories';
-import cl from './Search.module.css';
+import cl from './Search.module.scss';
 import { observer } from 'mobx-react-lite';
 
 interface SearchProps {
